@@ -1,0 +1,23 @@
+1. Brownie init (the directory must be empty)
+
+2. Making a smart contract.
+
+3. Adding ABI and pricefeed to smart contract 
+
+4. Making brownie config (yaml) and adding the dependencies ,pricefeed address and 
+"compiler:solc:remappings:@chainlink=..." to it.
+
+5. Making a test for our smart contract. 
+
+6. Deleting the pre-installed network "mainnet-fork"
+
+7. Creating new mainnet-fork using alchemy online chain.
+
+8. Command for adding network:- brownie networks add development mainnet-fork cmd=ganache-cli host=http://127.0.0.1 
+fork=https://eth-mainnet.g.alchemy.com/v2/tS7zxmC6q8zY8hzSEfuCBWtk4dt6nIpY accounts=10 mnemonic=Brownie port=8545
+
+9. Making enum for lottery's state and modifying the functions accordingly. 
+
+10. Importing the OpenZeppelin's owner file (from the authorization page of the docs file)
+
+**The test file must start with "test_"
